@@ -15,7 +15,9 @@ AIDE-edu는 **교육·연구용 LLM 실험 플랫폼**입니다.
 
 ## AIDE-edu 소개영상
 [![AIDE-edu 소개 영상](https://img.youtube.com/vi/bRqW8BVVV3U/0.jpg)](https://www.youtube.com/watch?v=bRqW8BVVV3U)
-[![AIDE 온라인 매뉴얼](https://jiyoung3347.github.io/AIDE-edu-web/)](https://jiyoung3347.github.io/AIDE-edu-web/)
+
+## AIDE 온라인 매뉴얼
+[👉 AIDE 온라인 매뉴얼 열기](https://jiyoung3347.github.io/AIDE-edu-web/)
 
 ## 실습파일
 - 예제 학습 데이터셋: `dataset/qa_100.jsonl`  
