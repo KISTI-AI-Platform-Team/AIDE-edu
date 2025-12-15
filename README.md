@@ -13,7 +13,6 @@ AIDE-edu는 **교육·연구용 LLM 실험 플랫폼**입니다.
 
 ## 데모 / 자료
 
-- 소개 영상: [AIDE-edu 소개 영상](https://youtu.be/bRqW8BVVV3U)  
 - 예제 학습 데이터셋: `dataset/qa_100.jsonl`  
 - 예제 평가 데이터셋: `evaluation_dataset/benchmark_30.csv`  
 - 실행 파일(Windows): `run-aide.bat`  
@@ -30,10 +29,10 @@ AIDE-edu는 **교육·연구용 LLM 실험 플랫폼**입니다.
 ### 2. 이미지 다운로드
 
 CPU 전용 이미지
-docker pull kistiofficial/aide-edu-cpu:latest
+`docker pull kistiofficial/aide-edu-cpu:latest`
 
 GPU 전용 이미지
-docker pull kistiofficial/aide-edu-gpu:latest
+`docker pull kistiofficial/aide-edu-gpu:latest`
 
 
 ### 3. 실행
@@ -53,7 +52,7 @@ docker pull kistiofficial/aide-edu-gpu:latest
 ---
 
 ## AIDE-edu 소개영상
-[![AIDE-edu 소개 영상](https://img.youtube.com/vi/bRqW8BVVV3U/0.jpg)](https://www.youtube.com/watch?v=bRqW8BVVV3U)
+[![AIDE-edu 소개 영상](https://img.youtube.com/vi/bRqW8BVVV3U/3.jpg)](https://www.youtube.com/watch?v=bRqW8BVVV3U)
 
 ---
 
