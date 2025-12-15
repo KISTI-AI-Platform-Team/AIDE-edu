@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  aide-edu-gpu:
+    image: kistiofficial/aide-edu-gpu:latest   # GPU 빌드 이미지
+    container_name: aide-edu-gpu
+    ports:
+      - "8269:8000"                            # host:container
+    volumes:
+      - ./dataset:/dataset
+#      - ./models:/models
+      - ./outs:/outs
+      - ./raw_dataset:/raw_dataset
+      - ./evaluation_dataset:/evaluation_dataset
+      - ./logs:/app/logs                       # 로그 디렉터리
+    environment:
+      - DEVICE=gpu
+      - TEXTEXTRACT_LANG=eng+kor
+      - HF_HOME=/tmp/huggingface_cache
+      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256
+      - NVIDIA_VISIBLE_DEVICES=all
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: ["gpu"]
+

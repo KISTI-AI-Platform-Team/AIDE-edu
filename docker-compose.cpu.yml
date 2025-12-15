@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  aide-edu-cpu:
+    image: kistiofficial/aide-edu-cpu:latest   # CPU 빌드 이미지
+    container_name: aide-edu-cpu
+    ports:
+      - "8269:8000"                            # CPU 서버도 동일 포트 사용
+    volumes:
+      - ./dataset:/dataset
+        #      - ./models:/models
+      - ./outs:/outs
+      - ./raw_dataset:/raw_dataset
+      - ./evaluation_dataset:/evaluation_dataset
+      - ./logs:/app/logs
+    environment:
+      - DEVICE=cpu
+      - TEXTEXTRACT_LANG=eng+kor
+      - HF_HOME=/tmp/huggingface_cache
+    restart: unless-stopped
+
