@@ -73,7 +73,7 @@ if %GPU_AVAILABLE%==1 (
       -e PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256 ^
       -p %HOST_PORT%:%CONTAINER_PORT% ^
       -v "%CD%/dataset:/dataset" ^
-      -v "%CD%/models:/models" ^
+      rem -v "%CD%/models:/models" ^
       -v "%CD%/outs:/outs" ^
       -v "%CD%/raw_dataset:/raw_dataset" ^
       -v "%CD%/evaluation_dataset:/evaluation_dataset" ^
@@ -90,7 +90,7 @@ if %GPU_AVAILABLE%==1 (
       -e PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256 ^
       -p %HOST_PORT%:%CONTAINER_PORT% ^
       -v "%CD%/dataset:/dataset" ^
-      -v "%CD%/models:/models" ^
+      rem -v "%CD%/models:/models" ^
       -v "%CD%/outs:/outs" ^
       -v "%CD%/raw_dataset:/raw_dataset" ^
       -v "%CD%/evaluation_dataset:/evaluation_dataset" ^
@@ -105,7 +105,7 @@ if %GPU_AVAILABLE%==1 (
       -e HF_HOME=/tmp/huggingface_cache ^
       -p %HOST_PORT%:%CONTAINER_PORT% ^
       -v "%CD%/dataset:/dataset" ^
-      -v "%CD%/models:/models" ^
+      rem -v "%CD%/models:/models" ^
       -v "%CD%/outs:/outs" ^
       -v "%CD%/raw_dataset:/raw_dataset" ^
       -v "%CD%/evaluation_dataset:/evaluation_dataset" ^
@@ -121,7 +121,7 @@ if %GPU_AVAILABLE%==1 (
       -e HF_HOME=/tmp/huggingface_cache ^
       -p %HOST_PORT%:%CONTAINER_PORT% ^
       -v "%CD%/dataset:/dataset" ^
-      -v "%CD%/models:/models" ^
+      rem -v "%CD%/models:/models" ^
       -v "%CD%/outs:/outs" ^
       -v "%CD%/raw_dataset:/raw_dataset" ^
       -v "%CD%/evaluation_dataset:/evaluation_dataset" ^
