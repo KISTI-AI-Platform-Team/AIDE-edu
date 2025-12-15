@@ -53,9 +53,7 @@ GPU 전용 이미지
 
 ## AIDE-edu 소개영상
 [![AIDE-edu 소개 영상](https://img.youtube.com/vi/bRqW8BVVV3U/3.jpg)](https://www.youtube.com/watch?v=bRqW8BVVV3U)
-<a href="https://www.youtube.com/watch?v=bRqW8BVVV3U">
-  <img src="https://img.youtube.com/vi/bRqW8BVVV3U/3.jpg" alt="AIDE-edu 소개 영상" width="100%" />
-</a>
+
 ---
 
 ## 기타
