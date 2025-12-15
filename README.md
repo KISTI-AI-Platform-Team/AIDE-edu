@@ -53,7 +53,7 @@ docker pull kistiofficial/aide-edu-gpu:latest
 ---
 
 ## AIDE-edu 소개영상
-https://youtu.be/bRqW8BVVV3U
+[![AIDE-edu 소개 영상](https://img.youtube.com/vi/bRqW8BVVV3U/0.jpg)](https://www.youtube.com/watch?v=bRqW8BVVV3U)
 
 ---
 
