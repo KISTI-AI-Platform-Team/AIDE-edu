@@ -13,6 +13,10 @@ AIDE-edu는 **교육·연구용 LLM 실험 플랫폼**입니다.
 
 ## 데모 / 자료
 
+## AIDE-edu 소개영상
+[![AIDE-edu 소개 영상](https://img.youtube.com/vi/bRqW8BVVV3U/0.jpg)](https://www.youtube.com/watch?v=bRqW8BVVV3U)
+
+## 실습파일
 - 예제 학습 데이터셋: `dataset/qa_100.jsonl`  
 - 예제 평가 데이터셋: `evaluation_dataset/benchmark_30.csv`  
 - 실행 파일(Windows): `run-aide.bat`  
@@ -48,11 +52,6 @@ GPU 전용 이미지
 
 스크립트 실행 후 터미널에 표시되는 주소(예: `http://localhost:8081`)로 브라우저에서 접속하면  
 웹 UI를 통해 채팅, 데이터셋 업로드, 학습 및 평가 기능을 사용할 수 있습니다.
-
----
-
-## AIDE-edu 소개영상
-[![AIDE-edu 소개 영상](https://img.youtube.com/vi/bRqW8BVVV3U/0.jpg)](https://www.youtube.com/watch?v=bRqW8BVVV3U)
 
 ---
 
